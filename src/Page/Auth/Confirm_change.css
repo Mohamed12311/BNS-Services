@@ -1,0 +1,126 @@
+
+.Vll{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-auto-rows: minmax(98px,auto);
+    gap: 10px;
+}
+
+.i1{
+    grid-column: 1/6;
+    grid-row: 1/10;
+    background-color: #222043;
+}
+.i2{
+    grid-column: 2/5;
+    grid-row: 1/9;
+    background-color: #fff;
+    border-radius: 25px;
+    margin: 20px;
+}
+.i3{
+    grid-column: 3/4;
+    grid-row: 1/5;
+    background-image:url('../../image/Sticker.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+
+.i4{
+    grid-column: 2/5;
+    grid-row: 4/8;
+    margin: 30px;
+}
+.i4 .btn{
+    background-color: #222043;
+    margin-top: 150px;
+    border-radius: 50px;
+    font-size: 25px;
+    padding: 10px;
+    width: 35%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.i4 .btn:hover{
+    background-color:#433aee ;
+}
+
+.i4 span{
+    font-size: 35px;
+    font-weight: 700;
+    color:  #222043;
+    line-height: 48px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.i4 p{
+    font-size: 24px;
+    font-weight: 400;
+    color:  #222043;
+    line-height: 30px;
+    padding: 26px;
+    font-family: 'Poppins', sans-serif;
+    
+    
+    
+}
+@media screen and (max-width:600px) {
+    .i1{
+        grid-column: 1/6;
+        grid-row: 1/9;
+        background-color: #222043;
+    }
+    .i2{
+        grid-column: 1/6;
+        grid-row: 1/7;
+        background-color: #fff;
+        border-radius: 25px;
+        margin: 20px;
+    }
+    .i3{
+        grid-column: 2/5;
+        grid-row: 1/3;
+        background-image:url('../../image/Sticker.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 40%;
+        
+    }
+    
+    .i4{
+        grid-column: 1/6;
+        grid-row: 2/5;
+        
+        
+    }
+    .i4 .btn{
+        margin-top: 160px;
+        background-color:#222043 ;
+        border-radius: 50px;
+        height: 60px;
+        width: 70%;
+        padding: 9px;
+        font-size: 25px;
+    }
+    
+    .i4 .btn:hover{
+        background-color:#554dee ;
+    }
+    
+    .i4 span{
+        font-size: 32px;
+        font-weight: 700;
+        color:  #222043;
+        line-height: 68px;
+        
+        
+    }
+    .i4 p{
+        font-size: 22px;
+        font-weight: 400;
+        color:  #222043;
+        line-height: 30px;
+        padding: 26px;
+    }
+}

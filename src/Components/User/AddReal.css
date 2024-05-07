@@ -1,0 +1,31 @@
+.uplood-img{
+    width: 550px;
+    height: 157px;
+    border: 3px  dashed #222043;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+.up-lood{
+    margin-top: 20px;
+}
+.radio{
+    margin:7px 50px;
+    background-color:#F5F5F5;
+    padding: 10px;
+    border-radius: 8px;
+    font-size:20px ;
+    font-weight:600 ;
+    color: #000000;
+}
+.redo{
+   margin-right: 7px;
+}
+.p4 .btn-real{
+    margin-top: 40px;
+    background-color: #222043;
+    color: #ffffff;
+    width:148px ;
+    height: 48px;
+    font-size:20px ;
+    font-weight: 600;
+}

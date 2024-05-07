@@ -1,0 +1,37 @@
+ .input-group form{
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    margin: 10px 275px 25px 275px;
+    background-color:var(--card_background);
+    border-radius: 16px;
+    
+    }
+
+ form .form-control{
+        border-radius: 16px;
+        height: 49px;
+        width: 100%;
+        background-color:var(--card_background);
+        border: none;
+    }
+
+   
+
+
+   @media screen and (max-width:600px) {
+      .input-group form{
+         padding: 5px;
+         display: flex;
+         width: 100%;
+         height: 60px;
+         margin: 10px 5px 25px 5px;
+         background-color: #FFFFFF;
+         border-radius: 16px;
+         
+         }
+     
+  
+
+   }

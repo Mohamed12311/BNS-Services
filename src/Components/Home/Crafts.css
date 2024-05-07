@@ -1,0 +1,43 @@
+.crafts{
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    background-color: #FFFFFF;
+ 
+}
+#homeCrafts{
+    width: 1000px;
+    padding: 4px 10px 10px 10px;
+
+     
+}
+
+#homeCrafts .nav-link{
+    font-size: 14px;
+     font-weight: 500;
+     color: #657CAB;
+     
+}
+#homeCrafts .nav-link:focus{
+      background-color: #657CAB;
+      padding: 10px;
+      border-radius: 16px;
+      color: #FFFFFF;
+}
+#homeCrafts span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #222043;
+}
+.nav2{
+    background-color: #657CAB;
+   
+}
+#res{
+    margin-top: -22px;
+}
+
+
+
+
+
