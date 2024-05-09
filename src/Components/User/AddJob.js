@@ -66,14 +66,14 @@ const AddJob = () => {
 
                     
               <Row >
-                <div className='col-6' style={{display:"flex"}}> <span className='x' htmlFor="Job-type">WorkHours:</span>  
+                <div className='col-sm-6' style={{display:"flex"}}> <span className='x' htmlFor="Job-type">WorkHours:</span>  
                  <input
                   className="ff "
                   type="number"
                   id="Job-description"
                   placeholder="00"
                 />  </div>
-                    <div className='col-6' style={{display:"flex"}}> <span className='x' htmlFor="Job-type" >Salary:</span>  
+                    <div className='col-sm-6' style={{display:"flex"}}> <span className='x' htmlFor="Job-type" >Salary:</span>  
                  <input
                   className="ff "
                   type="number"

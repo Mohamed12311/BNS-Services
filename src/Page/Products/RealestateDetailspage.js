@@ -31,8 +31,8 @@ const  RealestateDetailspage= () => {
          <div className='Real2 Real'>
 
          <div className='row r1'>
-        <div className='col-2'><img src={per}/></div>
-        <div className='col-3' style={{margin:"12px -16px" , textAlign:"center"}}> <span className='names'> Omer salah </span> <br/> <span style={{color:"#909090" , fontWeight:"600"}}>2 days ago</span></div>
+        <div className='col-sm-2'><img src={per}/></div>
+        <div className='col-sm-3 t' > <span className='names'> Omer salah </span> <br/> <span style={{color:"#909090" , fontWeight:"600"}}>2 days ago</span></div>
         </div>
 
         <div className='row r2'>
@@ -40,7 +40,7 @@ const  RealestateDetailspage= () => {
         <div className='col-3 s'>  <img src={bx}/><span  className='dis'> 115 m </span></div>
         <div className='col-4 s'> <span  className='dis'>Sale</span> </div>
         </div>
-        <div style={{float:"left", fontSize:"18px" , fontWeight:"600", letterSpacing:"1px" , color:"#909090"}}>  <img src={gr}/>Fayoum Road,beni suef</div>
+        <div className='com' >  <img src={gr}/>Fayoum Road,beni suef</div>
          </div>
    
     
@@ -62,7 +62,7 @@ const  RealestateDetailspage= () => {
      
 
          <div className='Real4 Real'> 
-         <Carousel fade className='real-homecarousel' style={{height:"500px"}}>
+         <Carousel fade className='real-homecarousel' id='sel'>
       <Carousel.Item >
       <img className=" real-carousel d-block w-100"  src={pc1} alt="" srcset="" />
       </Carousel.Item>

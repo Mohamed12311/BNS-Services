@@ -1,0 +1,84 @@
+.addB{
+ margin:0px 100px 0px 160px ;
+ padding:20px ;
+ 
+}
+
+.addbusinessHeader{
+  margin:0px 160px 20px 160px ;
+  color:#222043 ;
+  font-size: 24px;
+  font-weight:600 ;
+}
+.addB .form-control{
+       width: 466px;
+       height:50px ;
+       border:1px solid #222043 ;
+       border-radius: 8px;
+}
+.addB .form-select{
+    width: 466px;
+    height:50px ;
+    border:1px solid #222043 ;
+    border-radius: 8px;
+}
+.addB .uplood-im{
+   width: 466px;
+}
+
+.addB .add-bus{
+margin: 30px 140px 20px 140px;
+color: #FFFFFF;
+background-color:#222043 ;
+width:205px ;
+height:48px ;
+border-radius:8px ;
+font-size:20px ;
+font-weight:600 ;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .addB{
+        margin:0px 0px 0px 0px ;
+        padding:5px ;
+       }
+       .addbusinessHeader{
+        margin:0px 30px 20px 40px ;
+        color:#222043 ;
+        font-size: 23px;
+        font-weight:600 ;
+      }
+      .addB .form-control  {
+        width: 100%;
+        height:50px ;
+        border:1px solid #222043 ;
+        border-radius: 8px;
+ }
+ .addB .form-select{
+    width: 100%;
+    height:50px ;
+    border:1px solid #222043 ;
+    border-radius: 8px;
+ }
+
+ .addB .uplood-im{
+    width: 100%;
+ }
+ .addB .add-bus{
+    margin: 10px 10px 30px 10px;
+    color: #FFFFFF;
+    background-color:#222043 ;
+    width:205px ;
+    height:48px ;
+    border-radius:8px ;
+    font-size:20px ;
+    font-weight:600 ;
+    }
+    
+ 
+ 
+}
+

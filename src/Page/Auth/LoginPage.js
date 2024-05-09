@@ -1,11 +1,8 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const LoginPage = () => {
   return (
-
-
     <div>
       <section id="page1">
         <div className="All">

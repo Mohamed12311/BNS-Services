@@ -1,3 +1,12 @@
+
+.Restaurant{
+  font-size: 24px;
+  font-weight:700 ;
+  color: var(--link2_color);
+  margin: 10px 0px 0px 0px;
+
+}
+ 
  .input-group form{
     padding: 5px;
     display: flex;
@@ -27,10 +36,19 @@
          width: 100%;
          height: 60px;
          margin: 10px 5px 25px 5px;
-         background-color: #FFFFFF;
+         background-color:var(--card_background);
          border-radius: 16px;
          
          }
+         
+.Restaurant{
+   font-size: 24px;
+   font-weight:700 ;
+   color: var(--link2_color);
+   margin: 25px 0px 0px 0px;
+ 
+     }
+  
      
   
 

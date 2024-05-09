@@ -37,11 +37,11 @@ const NavBarLogin = () => {
       
           </Navbar.Collapse>
         </Container>
-        <form className="d-flex   ">
+        <form className="d-flex prof  ">
         <Nav.Link id='cata' href='/user/profile'>
        <img style={{width:'40px',height:'40px' , marginRight:"-15px"}} src={profile} className="login-img " alt="sfvs" />  
        </Nav.Link>
-            <i className="" style={{width:"130px" , margin:"9px 20px 10px 15px  " , fontSize:"15px" , fontWeight:"600" , color:"var(--link2_color)"}}>Mohamed Ahmed</i>
+            <i className="name" style={{width:"130px" , margin:"9px 20px 10px 15px  " , fontSize:"15px" , fontWeight:"600" , color:"var(--link2_color)"}}>Mohamed Ahmed</i>
           </form>
         
       </Navbar>

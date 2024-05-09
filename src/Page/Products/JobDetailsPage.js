@@ -19,15 +19,15 @@ const  JobDetailsPage= () => {
     return (
       <Container>
     
-        <div className="fo" style={{padding:"15px 40px 10px 40px"}}>
+        <div className="fo">
          
 
         <div className="f f1"> 
 
         <Link to="/homeJobs" style={{ textDecoration: 'none' }}>
-        <img style={{float:"left", marginRight:"10px"}} src={back}/>
+        <img className='backk'  src={back}/>
         </Link>
-            <h3 style={{float:"left", fontSize:"32px" , fontWeight:"700" , marginBottom:"20px" , color:"var(--link2_color)" } }>Cashier</h3>
+            <h3 className='cash' >Cashier</h3>
             <div className='apply' style={{float:"right"}}> <div className='btn' >
               
             <DropdownButton  id="dropdown-basic-button"  title="Apply Now" size='md'  >
@@ -36,23 +36,26 @@ const  JobDetailsPage= () => {
            </DropdownButton>
               
               
-              
-               </div>  <img style={{ height: "40px", width: "40px" , marginLeft:"15px" }} src={share} /></div>
+               </div> 
+
+                <img  className='sha' src={share} />
+                
+                </div>
         </div> 
 
 
         <div className="f f4">
-        <Row style={{margin:"20px 4px 10px 0px"}}>
-                     <div className='col-2 p'> <img className='job2-img' src={part}/> <span className='job2-footer'>Part time</span> </div>
-                      <div className='col-2 p'> <img  className='job2-img' src={timer}/> <span  className='job2-footer'> 8 hr work</span></div>
-                      <div className='col-2 p'> <img  className='job2-img' src={EgP}/> <span  className='job2-footer'>EGP 4,500 </span> </div>
-                      <div className='col-2 p'> <img  className='job2-img'src={uil}/> <span  className='job2-footer'>2 days ago</span></div>
+        <Row className='row-f4' >
+                     <div className='col-sm-2 p'> <img className='job2-img' src={part}/> <span className='job2-footer'>Part time</span> </div>
+                      <div className='col-sm-2 p'> <img  className='job2-img' src={timer}/> <span  className='job2-footer'> 8 hr work</span></div>
+                      <div className='col-sm-2 p'> <img  className='job2-img' src={EgP}/> <span  className='job2-footer'>EGP 4,500 </span> </div>
+                      <div className='col-sm-2 p'> <img  className='job2-img'src={uil}/> <span  className='job2-footer'>2 days ago</span></div>
                       </Row>
              </div> 
         <div className="f f3">
         <Row>
                     <div className='col-2'> <img style={{ height: "80px", width: "80px" }} src={job} /></div>
-                    <div className='col-8' style={{margin:"10px 0px 0px 30px"}}> <div> <span className='JobLocation' >Lamera</span><br/><span className='catagoo' >Restaurant&Café</span> </div> </div>
+                    <div className='col-8 Lamera' > <div> <span className='JobLocation' >Lamera</span><br/><span className='catagoo' >Restaurant&Café</span> </div> </div>
                       
                  </Row>
              </div> 

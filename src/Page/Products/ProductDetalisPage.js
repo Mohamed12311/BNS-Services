@@ -11,7 +11,7 @@ const ProductDetalisPage = () => {
 
         <div class="AllProduct">
         <div class="product product1"><CategoryHeader /></div>
-        <div class=" product2"><img alt='' src={back}/></div>
+        <div class=" product2"><img className='pro-im' alt='' src={back}/></div>
     
         <div class="product product3"><ProductDetalis /></div>
         <div class="product product4"><ProductAbout/></div>

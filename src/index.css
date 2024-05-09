@@ -755,6 +755,9 @@ footer {
   font-weight: 700;
   padding: 2px;
 }
+.fg-job{
+  padding: 30px 40px 0px 145px;
+}
 
     /* ***Start nav*** */  
 
@@ -763,5 +766,130 @@ footer {
 
 @media screen and (max-width:600px) {
 
+  .prof {
+   margin: -60px 0px 0px 270px;
+  }
+  .name{
+    display: none;
+  }
+
+
+
+
+
+
+  .lp{
+    margin-left: 60px;
+  }
+  
+  .title{
+    color:var(--link2_color) ;
+    font-size:24px;
+    font-weight: 800;
+    margin-left: 60px;
+  }
+  .JobLocation{
+    color:var(--link2_color);
+    font-size:20px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 2px;
+  }
+  .catagoo{
+    color:#657CAB ;
+    font-size:14px;
+    font-weight: 600;
+    background-color:rgba(101, 124, 171, 0.1) ;
+    padding: 5px;
+    border-radius:5px ;
+  }
+  
+  .job-text{
+    color:#909090 ;
+    font-size:18px;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+  
+  
+  
+  .job-img{
+    height:23px ;
+    width:23px ;
+    margin-right: 3px;
+    display: none;
+  }
+  .job2-img{
+    height:23px ;
+    width:23px ;
+   
+    color: #222043;
+  
+  }
+  
+  .job-footer{
+    color:#909090 ;
+    font-size: 16px;
+    font-weight: 700;
+    display: none;
+  }
+  .job2-footer{
+    color:#222043 ;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 2px;
+  }
+  
+  .sh{
+    margin-left: -25px;
+  }
+
+  .fg-job{
+    padding: 0px 0px 0px 0px;
+    display: none;
+  }
+
+  .user-address-card {
+    height: 550px;
+    width: 100%;
+    border-radius: 7px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px 0 rgba(151, 151, 151, 0.5);
+  }
+  .user-Change-card{
+    height: 550px;
+    width: 100%;
+    border-radius: 7px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px 0 rgba(151, 151, 151, 0.5);
+  }
+  .admin-content-text {
+    color: var(--link2_color);
+    font-family: Almarai;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 50px;
+  
+}
+
+.btn-save {
+  border: none;
+  color: white;
+  height: 46px;
+  width: 130px;
+  border-radius: 9px;
+  background-color: #222043;
+
+}
+
+
+    .footer-07 .menu a {
+      color: rgb(255, 255, 255);
+      margin: 0px 5px;
+      text-transform: uppercase;
+      letter-spacing: 1px; 
+      text-decoration: none;
+    }
 }     
             

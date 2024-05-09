@@ -10,7 +10,7 @@ const HomeCategory = () => {
             <div className="container-fluid" >
      
 		
-    <div className="scrolling-wrapper row flex-row flex-nowrap ">
+    <div className="scrolling-wrapper row flex-row flex-nowrap " style={{backgroundColor:"var(--body_background)"}}>
              <Col> <span>AllCategories:</span></Col>
                 <Col><Link  className="nav-link "  to="/HomePage/restaurantCafe" >Restaurant&café  </Link></Col>
                 <Col><Link className="nav-link    " to=""> Hospitals </Link></Col>

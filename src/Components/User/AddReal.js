@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react';
+import MultiImageInput from 'react-multiple-image-input';
 import { Row, Col } from 'react-bootstrap'
 import back from '../.././image/back.png'
 import { Link } from 'react-router-dom';
 import uplood from "../../image/upload img.png"
 import "./AddReal.css"
 const AddReal = () => {
+  const [images, setImages] = useState([]);
+  const [image, setImage] = useState([]);
+  console.log(images)
+  console.log(image)
     return (
         <div className='Add-job'>
                <div className="po" >
@@ -43,16 +48,19 @@ const AddReal = () => {
                <div className="p p2">
 
                <label htmlFor="Upload-property " className='label'>Upload property images:</label>
-               <div className='uplood-img'>
-                <center>
-               <input className='up-lood' type="image" src={uplood} alt="Submit" width="48" height="48"/>
-               <br/>
-               <span>Drop your imaged</span>
-               </center>
+               <div className='uplood-im'>
+
+               <MultiImageInput
+                images={images}
+                setImages={setImages}
+                theme="light"
+                 max={4}
+                />
+
                </div>
                <span>Maximum upload of 4 images</span>
            
-
+            
             
 
                     

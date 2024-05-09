@@ -4,14 +4,14 @@ import { Row, Col } from 'react-bootstrap'
 const changePassword = () => {
     return (
         <div>
-            <div className="user-Change-card my-3 px-2"  style={{backgroundColor:"var(--card_background)"}}>
+            <div className="user-Change-card my-2 px-2"  style={{backgroundColor:"var(--card_background)"}}>
          
 
                 
            
                 <Row className="mt-4">
                 <center>
-                    <Col xs="10" sm="7" md="6" className="my-5">
+                    <Col xs="10" sm="7" md="6" className="my-3">
                         
                         <div className="admin-content-text">Change Password:</div>
                         <label className='label' htmlFor="Current password" style={{float:"left" , marginTop:"20px"}}>Current password:</label>

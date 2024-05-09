@@ -10,7 +10,7 @@ const Crafts = () => {
         <div className="container-fluid" >
      
 		
-        <div className="scrolling-wrapper row flex-row flex-nowrap ">
+        <div className="scrolling-wrapper row flex-row flex-nowrap " style={{backgroundColor:"var(--body_background)"}}>
            
 
                 <Col> <span>AllCraftsmen:</span></Col>

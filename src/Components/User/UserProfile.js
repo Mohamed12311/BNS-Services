@@ -7,7 +7,7 @@ import chosee_profile from "../../image/chosee40075.png";
 const UserProfile = () => {
   return (
     <div>
-      <div className="user-address-card my-3 px-2"  style={{backgroundColor:"var(--card_background)"}}>
+      <div className="user-address-card my-2 px-2"  style={{backgroundColor:"var(--card_background)"}}>
         <center>
           <img
             style={{ width: "110px", height: "110px" }}
@@ -50,7 +50,7 @@ const UserProfile = () => {
               <Col xs="12" sm="9" md="4" className="d-flex">
                 <div className=" profile-name">GmaiL:</div>
               </Col>
-            </center>
+            </center> 
           </Row>
 
           <Row className="">

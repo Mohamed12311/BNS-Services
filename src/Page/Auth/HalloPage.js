@@ -26,8 +26,8 @@ const HalloPage = () => {
           <div className="Hallo Hallo2"></div>
 
           <div className="Hallo Hallo3">
-          <span style={{color:"#FFFFFF" , fontSize:"40px", fontWeight:"700" , margin:"0px 0px 0px -35px"}}>Search your Destination</span>
-          <p style={{color:"#FFFFFF" , fontSize:"20px", fontWeight:"400" , margin:"5px 0px 10px 30px" , textAlign:"start", lineHeight:"30px" , opacity:".8"}}>Welcome to BNS 360. We provide all the <br/> information about Beni Suef that helps you find <br/>your destination.</p>
+          <span className='searchde' >Search your Destination</span>
+          <p className='parag' style={{color:"#FFFFFF" , fontSize:"20px", fontWeight:"400" , margin:"5px 0px 10px 30px" , textAlign:"start", lineHeight:"30px" , opacity:".8"}}>Welcome to BNS 360. We provide all the <br/> information about Beni Suef that helps you find <br/>your destination.</p>
           </div>
 
           <div className="Hallo Hallo4"></div>

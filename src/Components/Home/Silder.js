@@ -14,7 +14,7 @@ const Silder = () => {
             </div>
              <div className="c c1">
              <div className='carousel'>  
-             <Carousel fade style={{height:"360px" }}>
+             <Carousel fade id='Carousel'>
       <Carousel.Item >
       <img   className=" d-block w-100"  src={pc1} alt="" srcset="" />
       </Carousel.Item>

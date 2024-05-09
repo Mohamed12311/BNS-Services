@@ -19,7 +19,9 @@ const  HomeJobs= () => {
        <Col> <img style={{marginRight:"3px" , marginTop:"-2px" , width:"20px" , height:"20px"}} src={add}/> <span style={{color:"var(--link2_color)" , fontSize:"19px", fontWeight:"600"}}>Add job</span></Col>  
        </Link>
       </div>
-
+      <br/>
+      <br/>
+    
         <JobCard/>
         <JobCard/>
         <JobCard/>

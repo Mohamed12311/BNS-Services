@@ -216,6 +216,17 @@ center #link:hover{
        font-weight: 500;
        opacity: .6;
    }
-
+   .co3 .int{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+ .into{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
  
 }

@@ -5,7 +5,7 @@ import './RestaurantCafe.css'
 const RestaurantCafe = () => {
     return (
         <Container>
-            <h2 style={{fontSize:"24px" , fontWeight:"700" , color:"var(--link2_color)" , margin:"10px 0px 0px 0px"}}>Restaurant & Café</h2>
+            <h2 className='Restaurant'>Restaurant & Café</h2>
             <div className='input-group'>
       <form className="form-inline"  >
       <input 

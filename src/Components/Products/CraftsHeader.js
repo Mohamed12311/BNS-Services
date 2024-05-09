@@ -18,9 +18,9 @@ const CraftsHeader = () => {
            </center>
            <Container>
            <div className='row'>
-           <div className='col-3'> <img  className='r'src={loc}/> <span className='location '>Beni suef</span></div>
+           <div className='col-sm-3 c'> <img  className='r'src={loc}/> <span className='location '>Beni suef</span></div>
     
-            <div className='col-4'><img  className='r'src={cloc}/>  <span className='Available '>Available for work</span> <span  className='clock'>
+            <div className='col-sm-4 c'><img  className='r'src={cloc}/>  <span className='Available '>Available for work</span> <span  className='clock'>
 
 <span>10AM </span>
 <span> -</span>
@@ -28,7 +28,7 @@ const CraftsHeader = () => {
                    
                      </span></div>
 
-                     <div className='col-3'><img className='r' src={tele }/> <span className='televios '>01004100826</span> </div>
+                     <div className='col-sm-3 c'><img className='r' src={tele }/> <span className='televios '>01004100826</span> </div>
 
            </div>
            </Container>

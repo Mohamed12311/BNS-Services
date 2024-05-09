@@ -28,7 +28,7 @@ const RealestateCard = () => {
         <div className='row r1'>
         <div className='col-2'><img src={per}/></div>
         <div className='col-9 a '> <span className='names'> Omer salah </span></div>
-        <div className='col-1 a'><img src={oo}/></div>
+        <div className='col-1 y'><img src={oo}/></div>
         </div>
 
         <div className='row r2'>
@@ -38,8 +38,8 @@ const RealestateCard = () => {
         </div>
 
         <div className='row r3'>
-        <div className='col-8 z'>  <img src={gr}/>Fayoum Road,beni suef</div>
-        <div className='col-3 z'>  <img src={ve}/> <span className='road'> 2 days ago</span></div>
+        <div className='col-sm-8 z'>  <img src={gr}/>Fayoum Road,beni suef</div>
+        <div className='col-sm-3 z'>  <img src={ve}/> <span className='road'> 2 days ago</span></div>
         </div>
 
     
